@@ -344,9 +344,9 @@ Text GLabel 1450 800  2    50   Input ~ 0
 12v
 Text GLabel 4150 4400 2    50   Input ~ 0
 Z_DIR
-Text GLabel 4150 4500 2    50   Input ~ 0
+Text GLabel 4150 3600 2    50   Input ~ 0
 Z_STEP
-Text GLabel 4150 4600 2    50   Input ~ 0
+Text GLabel 4150 3500 2    50   Input ~ 0
 Z_EN
 Text GLabel 2550 3800 0    50   Input ~ 0
 THERM1_SIG
@@ -426,7 +426,7 @@ Text GLabel 4150 2500 2    50   Input ~ 0
 MOSI
 Text GLabel 4150 2400 2    50   Input ~ 0
 SCL
-Text GLabel 4150 4700 2    50   Input ~ 0
+Text GLabel 4150 3400 2    50   Input ~ 0
 R_DIR
 Text GLabel 4150 4800 2    50   Input ~ 0
 R_STEP
@@ -473,6 +473,39 @@ F 1 "GND" H 5355 1877 50  0000 C CNN
 F 2 "" H 5350 2050 50  0001 C CNN
 F 3 "" H 5350 2050 50  0001 C CNN
 	1    5350 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VP #PWR?
+U 1 1 5EE60FE6
+P 6350 3450
+F 0 "#PWR?" H 6350 3300 50  0001 C CNN
+F 1 "+5VP" H 6365 3623 50  0000 C CNN
+F 2 "" H 6350 3450 50  0001 C CNN
+F 3 "" H 6350 3450 50  0001 C CNN
+	1    6350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5EE8685C
+P 5750 3450
+F 0 "#PWR?" H 5750 3300 50  0001 C CNN
+F 1 "+5V" H 5765 3623 50  0000 C CNN
+F 2 "" H 5750 3450 50  0001 C CNN
+F 3 "" H 5750 3450 50  0001 C CNN
+	1    5750 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper JP?
+U 1 1 5EE87C3B
+P 6050 3450
+F 0 "JP?" H 6050 3714 50  0000 C CNN
+F 1 "Jumper" H 6050 3623 50  0000 C CNN
+F 2 "" H 6050 3450 50  0001 C CNN
+F 3 "~" H 6050 3450 50  0001 C CNN
+	1    6050 3450
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
